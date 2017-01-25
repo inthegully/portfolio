@@ -1,0 +1,176 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: 1px solid #d8d8d8;
+}
+.header-logo-link {
+  max-height: 80%;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.header-logo {
+  height: 40px;
+}
+/*home page*/
+.mandala {
+  width: 100%;
+  position: fixed;
+  z-index: -10;
+}
+.logo-house {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.logo {
+  height: 500px;
+  z-index: 100;
+  display: block;
+}
+.email-section {
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+.email {
+  text-align: center;
+  color: #6f6f6f;
+  font-size: 20px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact {
+  background-color: white;
+  margin: 0;
+}
+.contact-list {
+  margin: 0 10% 0 10%;
+}
+.logo-link {
+  height: 35px;
+  width: 35px;
+}
+nav {
+  background-color: white;
+  margin: 0;
+}
+.nav-list {
+  height: 250px;
+  margin: 0 auto;
+  padding-top: 25px;
+  flex-direction: column;
+}
+.nav-item {
+  display: inline;
+}
+.nav-link {
+  text-decoration: none;
+  color: #6f6f6f;
+  font-size: 30px;
+}
+
+/*about page*/
+
+.profile-pic-section {
+  width: 100%;
+  padding-top: 50px;
+}
+.profile-pic {
+  height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.bio-section {
+  margin: 0 auto;
+  color: #6f6f6f;
+  padding: 40px;
+  font-size: 20px;
+}
+.contact-bio {
+  background-color: white;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+
+/*iPad*/
+@media (min-width: 750px){
+
+
+.header-logo-link {
+  margin-top: 5px;
+}
+.header-logo {
+  height: 50px;
+}
+
+/*about page*/
+.profile-pic {
+  height: 300px;
+}
+.logo {
+  height: 800px;
+}
+.bio-section {
+  width: 60%;
+  font-size: 25px;
+}
+
+/*home page*/
+.email-section {
+  padding: 30px;
+  height: 100px;
+}
+.email {
+  font-size: 30px;
+}
+.contact-list {
+  height: 75px;
+}
+.logo-link {
+  height: 50px;
+  width: 50px;
+}
+.nav-list {
+  height: 200px;
+  flex-direction: row;
+}
+.nav-link {
+  font-size: 40px;
+}
+}
+
+/*Desktop*/
+@media (min-width: 900px) {
+
+/*about page*/
+.profile-pic {
+  height: 400px;
+}
+
+/*home page*/
+.logo {
+  height: 1000px;
+}
+.contact-list {
+  height: 100px;
+  margin: 0 30% 0 30%;
+}
+.nav-list {
+  margin: 0 30% 0 30%;
+  padding-bottom: 5%;
+}
+}
